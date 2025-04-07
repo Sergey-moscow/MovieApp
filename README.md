@@ -1,8 +1,13 @@
-# React + Vite
+**О сайте**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный сайт для поиска фильмов и добавления в избранное.
+Реализованы различные списки фильмов, поиск по названию и поиск по параметрам.
+Список фильмов запрашивается по API https://www.themoviedb.org/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Использованы следующие технологии:**
+Модульный CSS
+JavaScript
+React - компоненты, хуки, пропсы, условные отрисовки
+React Routes
+RTK Query
+Redux toolkit
