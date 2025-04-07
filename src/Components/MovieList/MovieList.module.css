@@ -11,8 +11,12 @@
     padding: 20px 50px 0px 50px;
     
     scrollbar-width: none; 
+   
 }
 
+.movieList::-webkit-scrollbar { 
+    display: none;
+}
 
 .movieList::-webkit-scrollbar {
     height: 5px; 
