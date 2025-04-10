@@ -1,4 +1,5 @@
 import AboutPage from "./pages/AboutPage/AboutPage";
+import AISearchPage from "./pages/AISearchPage/AISearchPage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import FavoritesPage from "./pages/FavoritesPage/FavoritesPage";
 import FilteredPage from "./pages/filteredPage/filteredPage";
@@ -14,7 +15,8 @@ export const privateRoutes = [
     {path: "search", element: <Search/>},
     {path: "error", element: <ErrorPage/>},
     {path: "about", element: <AboutPage/>},
-    {path: "search", element: <SearchPage/>},
+    {path: "AISearch", element: <AISearchPage/>},
+    {path: "search", element: <SearchPage />},
     {path: "filteredPage", element: <FilteredPage/>},
     {path: "favorites", element: <FavoritesPage/>},
     {path: "movie/:movieID/", element: <MoviePage/>},
@@ -26,3 +28,4 @@ export const publicRoutes = [
     {path: "login", element: <LoginPage/>},
     {path: "*", element: <LoginPage/>}
 ]
+

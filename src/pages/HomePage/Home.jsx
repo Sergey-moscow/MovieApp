@@ -6,6 +6,7 @@ import { useState } from "react";
 import FilterWindow from "../../Components/FilterWindow/FilterWindow";
 import SearchButton from "../../Components/UI/SearchButton/SearchButton";
 import FilterButton from "../../Components/UI/FilterButton/FilterButton";
+import AISearchButton from "../../Components/UI/AISearchButton/AISearchButton";
 
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
         <div className={styles.homeContainer} style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${bgrPath}`}}>
              {isModal ? <FilterWindow setIsModal={setIsModal}/> : null}
         <div className={styles.searchBtnContainer} >
+             <AISearchButton />
              <SearchButton />
              <FilterButton setIsModal={setIsModal} />
            
